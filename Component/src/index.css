@@ -1,0 +1,32 @@
+.classOne{
+    color: rgb(226, 217, 217);
+}
+
+*{
+    margin: 0px 0px;
+}
+
+.appMap {
+  padding-left: 9%;
+  padding-top: 3%;
+  display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+ 
+  background: linear-gradient(300deg,#0e0000,#3e0c0c,#123084,#760a0c,#19206c);
+  background-size: 300% 300%;
+  animation: gradient-animation 20s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

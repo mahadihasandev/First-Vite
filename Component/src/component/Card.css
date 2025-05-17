@@ -1,0 +1,27 @@
+.main{
+    height: 180px;
+    width: 270px;
+    background: rgba(39, 11, 11, 0.6);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px 20px;
+    text-align: center;
+    border: thick black;
+}
+
+.main p{
+    margin: 20px;
+    color: aliceblue;
+}
+
+.main button{
+    margin: 15px;
+    color: aliceblue;
+    padding: 5% 7%;
+    border-radius: 10px;
+    background: rgba(39, 11, 11, 0.763);;
+    font-weight: 600;
+    font-size: 20px;
+   
+
+}
