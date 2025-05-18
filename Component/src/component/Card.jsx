@@ -1,6 +1,4 @@
-import React from 'react'
-import "./Card.css"
-
+import "./Card.css";
 
 function Card({cardkey,title,text,classD,setText,type}) {
   return (
@@ -11,7 +9,7 @@ function Card({cardkey,title,text,classD,setText,type}) {
     {type=="true"?<button onClick={()=>setText("Clicked")}>Click</button>:""}
     </div>
     </>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;

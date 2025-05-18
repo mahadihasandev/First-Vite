@@ -63,7 +63,7 @@ export let arrObj=[
       title:"this is the title",
       text:"this is a paragraph",
       classD:"classOne",
-      type:"falsea"
+      type:"false"
     },
     { 
       title:"this is the title",
@@ -71,6 +71,4 @@ export let arrObj=[
       classD:"classOne",
       type:"true"
     },
-    ]
-
-    
+    ];
