@@ -1,82 +1,10 @@
 import React, { useState } from 'react'
 import Card from './component/Card'
 import Display from './component/Display'
+import {arrObj} from './arrayDB'
 
 function App() {
-  let arrObj=[
-    { 
-      title:"this is the title",
-      text:"this is a paragraph",
-      classD:"classOne",
-      type:"true"
-    },
-    { 
-      title:"this is the title",
-      text:"this is a paragraph",
-      classD:"classOne",
-      type:"false"
-    },
-    { 
-      title:"this is the title",
-      text:"this is a paragraph",
-      classD:"classOne",
-      type:"true"
-    },
-    { 
-      title:"this is the title",
-      text:"this is a paragraph",
-      classD:"classOne",
-      type:"false"
-    },
-    { 
-      title:"this is the title",
-      text:"this is a paragraph",
-      classD:"classOne",
-      type:"true"
-    },
-    { 
-      title:"this is the title",
-      text:"this is a paragraph",
-      classD:"classOne",
-      type:"true"
-    },
-     { 
-      title:"this is the title",
-      text:"this is a paragraph",
-      classD:"classOne",
-      type:"true"
-    },
-    { 
-      title:"this is the title",
-      text:"this is a paragraph",
-      classD:"classOne",
-      type:"false"
-    },
-    { 
-      title:"this is the title",
-      text:"this is a paragraph",
-      classD:"classOne",
-      type:"true"
-    },
-    { 
-      title:"this is the title",
-      text:"this is a paragraph",
-      classD:"classOne",
-      type:"true"
-    },
-    { 
-      title:"this is the title",
-      text:"this is a paragraph",
-      classD:"classOne",
-      type:"falsea"
-    },
-    { 
-      title:"this is the title",
-      text:"this is a paragraph",
-      classD:"classOne",
-      type:"true"
-    },
-    ]
+  
 
    let [texts,setText]=useState("")
     

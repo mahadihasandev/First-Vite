@@ -1,6 +1,10 @@
 .classOne{
     color: rgb(226, 217, 217);
 }
+.classTwo{
+    color: rgb(226, 217, 217);
+    background: #7f9ae4a7;
+}
 
 *{
     margin: 0px 0px;
