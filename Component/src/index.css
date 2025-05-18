@@ -7,7 +7,7 @@
 }
 
 .appMap {
-  padding-left: 9%;
+  padding-left: 12%;
   padding-top: 3%;
   display: flex;
     flex-wrap: wrap;
@@ -29,4 +29,14 @@
   100% {
     background-position: 0% 50%;
   }
+}
+
+.display{
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+  text-align: center;
+  border: solid rgba(94, 8, 8, 0.516);
+  background: #123084;
+  height: 5rem;
+  padding-top: 30px;
 }
